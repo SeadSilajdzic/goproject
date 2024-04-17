@@ -18,7 +18,7 @@ func main() {
 		return
 	}
 
-	fmt.Printf("Hello %v, welcome to idiot detector game. \n", playerName)
+	fmt.Printf("Hello %v, welcome to quiz game. \n", playerName)
 	fmt.Println("--------------Game is starting-------------")
 	fmt.Println("Question no.1")
 
@@ -56,9 +56,9 @@ func main() {
 	fmt.Printf("Your score is %v/%v, which is %v%%. \n", score, num_questions, percent)
 
 	if percent < 100 {
-		fmt.Println("Congrats, you are certified idiot!")
+		fmt.Println("Congrats!")
 	} else {
-		fmt.Println("Good job, smartass!")
+		fmt.Println("Good job anyways!")
 	}
 
 }
